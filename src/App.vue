@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Richen from './components/richen1.vue'
+import HelloWorld from './com/HelloWorld.vue'
+import Richen from './com/richen1.vue'
 
 export default {
   name: 'App',
@@ -31,8 +31,7 @@ body{
   margin: 0;
 }
 #title{
-  width: 375px;
-  height: 64px;
+  height:64px;
   line-height: 64px;
   text-align: center;
   background: #366cb3;
@@ -46,12 +45,11 @@ body{
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 47px;
-  line-height: 47px;
-  width: 373px;
+  height: 2.9375rem;
+  line-height: 2.9375rem;
   display: flex;
   background: rgba(255,255,255,0.94);
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: .0625rem solid rgba(0,0,0,0.3);
 }
 #foolt span{
   text-align: center;
@@ -61,6 +59,6 @@ body{
   color: #366cb3;
 }
 .box{
-  width: 375px;
+  width: 23.4375rem;
 }
 </style>
